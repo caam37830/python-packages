@@ -33,5 +33,5 @@ class TestMyClass(unittest.TestCase):
 		self.assertEqual(self.obj.a, self.a)
 
 	def test_b(self):
-		self.assertEqual(self.obj.b, self.a)
-		# self.assertEqual(self.obj.b, self.b)
+		# self.assertEqual(self.obj.b, self.a)
+		self.assertEqual(self.obj.b, self.b)
