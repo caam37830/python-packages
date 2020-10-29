@@ -14,6 +14,10 @@ setup(
     version=__version__,
     author='Brad Nelson',
     author_email='bradnelson@uchicago.edu',
+    description='a basic example package',
+    url="https://github.com/caam37830/python-packages",
+    python_requires='>=3.6',
     packages=['mypack'],
-    zip_safe=True
+    zip_safe=True,
+
 )
